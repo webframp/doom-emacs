@@ -1,0 +1,39 @@
+#+TITLE:   tools/make
+#+DATE:    February 06, 2022
+#+SINCE:   v2.0.0
+#+STARTUP: inlineimages nofold
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#maintainers][Maintainers]]
+  - [[#module-flags][Module Flags]]
+  - [[#plugins][Plugins]]
+  - [[#hacks][Hacks]]
+- [[#prerequisites][Prerequisites]]
+- [[#features][Features]]
+- [[#configuration][Configuration]]
+
+* Description
+This module provides basic functionality for Makefile targets at a project level
+
+** Maintainers
+This module has no dedicated maintainers.
+
+** Module Flags
+This module has no flags
+
+** Plugins
++ [[https://github.com/thiderman/makefile-executor.el][makefile-executor]]
+
+** Hacks
+This module has no arounds
+* Prerequisites
+This module requires ~make~
+
+* Features
+This module provides a single function ~+make/run~ that can run task defined for the current project. If multiple makefiles are available, you will be prompted to select one.
+
+It is not bound to any key by default
+
+* Configuration
+No additional configuration is required for this module

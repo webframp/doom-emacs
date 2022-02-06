@@ -20,6 +20,6 @@ you'll be prompted to select one."
 
 ;;;###autoload
 (defun +make/run-last ()
-  "TODO"
+  "Execute the last makefile target for the project."
   (interactive)
   (makefile-executor-execute-last nil))
