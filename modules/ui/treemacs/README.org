@@ -21,10 +21,10 @@ utilities. It includes:
 
 ** Module flags
 - +lsp ::
-  Enable ~lsp-treemacs~ integration and add shortcuts for common commands.
+  Enable ~lsp-treemacs~ integration and add shortcuts for common commands. Unavailable if using [[doom-module:+lsp +eglot]]
 
 ** Packages
-- [[doom-package:lsp-treemacs]] if [[doom-module:+lsp]]
+- [[doom-package:lsp-treemacs]] if [[doom-module:+lsp]] 
 - [[doom-package:treemacs]]
 - [[doom-package:treemacs-evil]] if [[doom-module::editor evil +everywhere]]
 - [[doom-package:treemacs-magit]] if [[doom-module::tools magit]]
